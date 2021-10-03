@@ -2,9 +2,9 @@
 
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 
-const redirectUri = "https://confident-lichterman-29cbe6.netlify.app/";
+const redirectUri = "http://localhost:3000/";
 
-const clientId = "595f92b1c22442e1ad7f221f4224942b";
+const clientId = "1d4ff83f79484275952fd234dc78077b";
 
 const scopes = [
   "user-read-currently-playing",
